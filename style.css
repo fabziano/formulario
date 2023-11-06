@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+    width: 60%;
+    padding: 1em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-weight: bolder;
+    
+}
+textarea{
+    resize: none;
+    padding: 0.5em;;
+}
+fieldset{
+    border-radius: 0.5em;
+    display: grid;
+    padding: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1em;
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+}
+.caixa input, .caixa select{
+    padding: 0.5em;
+}
+.mensagem{
+    color:red;
+    position: absolute;
+}
+button{
+    padding: 0.5em;
+    cursor: pointer;
+    align-self: center;
+}
